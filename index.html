@@ -7,7 +7,7 @@
             var URL = 'https://notify-bot.line.me/oauth/authorize?';
             URL += 'response_type=code';
             URL += '&client_id=osZTEGyp8eEwLov8PkgxiX';
-            URL += '&redirect_uri=https://samngam605.github.io/SVHTTPS/index.html';//ถ้า login แล้ว เลือกกลุ่มหรือตัวเอง ให้กลับมาหน้านี้
+            URL += '&redirect_uri=https://samngam605.github.io/SVHTTPS/callback.php';//ถ้า login แล้ว เลือกกลุ่มหรือตัวเอง ให้กลับมาหน้านี้
             URL += '&scope=notify';
             URL += '&state=wachirah13@gmail.com';//กำหนด  user หรือ อะไรก็ได้ที่สามารถบอกถึงว่าเป็น user ในระบบ
             window.location.href = URL;
@@ -15,6 +15,6 @@
     </script>
 </head>
 <body>
-    <button onclick="Auth();">LineNotify v 1.0</button>
+    <button onclick="Auth();">LineNotify v 1.1</button>
 </body>
 </html>
